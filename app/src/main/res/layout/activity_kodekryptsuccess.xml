@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Success!"
+        android:id="@+id/textView3"
+        android:textSize="35dp"
+        android:textColor="#00FF00"
+        android:layout_gravity = "center_horizontal"
+        android:layout_marginTop="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You are successfully registered for Kodekrypt"
+        android:layout_gravity = "center_horizontal"
+        android:layout_marginTop="20sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write Exam"
+        android:id="@+id/button2"
+        android:background="#FF6600"
+        android:layout_marginTop="270sp"
+        android:onClick="exam"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Other Events"
+        android:id="@+id/button3"
+        android:background="#FF6600"
+        android:layout_gravity="right"
+
+        android:layout_marginTop="20sp"/>
+</LinearLayout>

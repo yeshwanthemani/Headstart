@@ -1,0 +1,223 @@
+What are the different types of real data type in C ?
+A. Float, double 
+B. Short int, double, long int
+C. Float, double, long double 
+D. Double, long int, float
+ANSWER: C
+
+We want to round off x, a float, to an int value, The correct way to do is
+A. y = (int)(x + 0.5) 
+B. y = int(x + 0.5)
+C. y = (int)x + 0.5 
+D. y = (int)((int)x + 0.5)
+ANSWER: A
+
+By default a real number is treated as a
+A. Float                   
+B. Double
+C. Long Double       
+D. Int
+ANSWER: B
+
+Which of the following statement creates an infinite loop?
+A. For(;;) 
+B. While(;;) 
+C. If(;; ) 
+D. Do(;;)
+ANSWER:  A
+
+Which among the following is a unconditional control structure
+A)do-while
+B)If-else          	
+C)Goto             	
+D)For
+ANSWER: C
+
+In a 16-bit machine what is the size of int and float ?
+A)16 & 32
+B)8 & 32
+C)32 & 32
+D)32 & 16
+ANSWER: A
+
+What is stderr?
+A)standard error
+B)standard error streams
+C)standard error types
+D)standard error definition
+ANSWER: B
+
+Size of void pointer is
+A)1 byte
+B)2 byte
+C)3 byte
+D)none of the above
+ANSWER: B
+
+Which of the following uses structure?
+A) Array of structures
+B) Linked Lists
+C) Binary Tree
+D) All of the mentioned
+ANSWER: D
+
+Which of the following is not possible in C?
+A) Array of function pointer
+B) Returning a function pointer
+C) Comparison of function pointer
+D) None of the mentioned
+ANSWER: D
+
+The header file in which the NULL pointer constant is defined is..?
+A) stdio.h                                        	
+B) stdlib.h
+C) string.h                                       	
+D) Both A and B
+ANSWER: D
+
+In switch statement, each case instance value must be..?
+A) Constant                    	            		
+B) Variable
+C) Special Symbol                         		
+D) None of the above
+ANSWER: A
+
+The value of an automatic variable that is declared but not initialised will be..?
+A) 0                                                    	
+B) 1
+C) Unpredictable                                          	
+D) None of the above
+ANSWER: C
+
+The const feature can be applied to..?
+A) An identifier                             		
+B) An array
+C) An array argument                 		
+D) All of the above
+ANSWER: D
+
+Prior to using a pointer variable it should be
+A)Declared
+B)Initialized
+C)Both declared and initalized
+D)None of these
+ANSWER: C
+
+calloc(m, n); is equivalent to
+A)malloc (m*n, 0);
+B)memset(0, m*n);
+C)ptr = malloc (m*n); memset (p, 0, m*n);
+D)ptr = malloc(m*n); strcpy(p, u); 
+ANSWER: C
+
+While passing an array as an actual argument, the function call must have the array name
+A)with empty brackets
+B)with its size
+C)alone 
+D)none of the above 
+ANSWER: C
+
+If arr is a two dimensional array of 10 rows and 12 columns, then arr (5) logically points to the
+A)sixth row
+B)Fifth row
+C)fifth column
+D)sixth column
+ANSWER: A
+
+The parameter passing mechanism for an array is
+A)call by value
+B)call by value-result
+C)call by reference
+D)none of these
+ANSWER: C
+
+Which of the following is/are syntactically correct?
+A)for ( ) ;
+B)for (;) ;
+C)for ( , );
+D)for ( ; ; ) ;
+ANSWER: D
+
+When a variable of data type double is converted into float, then
+A)Rounding takes place
+B)Truncation takes place
+C)The lower order bits are dropped
+D)None of these
+ANSWER: A
+
+The declaration int x : 4; means
+A)x is a four digit integer
+B)x cannot be greater than a four digit integer
+C)x is a four-bit integer 
+D)none of above
+ANSWER: C
+
+x - = y + 1;  means
+A)x = x - y + 1
+B)x = -x -y -1
+C)x=-x +y + 1
+D)x= x - y -1
+ANSWER: D
+
+The statement printf ("%d", ( a++) ) ; prints
+A)the current value of a
+B)the value of a + 1
+C)an error message
+D)garbage
+ANSWER: A
+
+The return-type used in String operations are.
+A) void only
+B) void and (char *) only
+C) void and int only
+D) void, int and (char *) only
+ANSWER: D
+
+Which of the following cannot be a structure member?
+A) Another structure
+B) Function
+C) Array
+D) None of the mentioned
+ANSWER: B
+
+What type of value does sizeof return?
+A) char
+B) short
+C) unsigned int
+D) long
+ANSWER: C
+
+Size of a union is determined by size of the.
+A) First member in the union
+B) Last member in the union
+C) Sum of the sizes of all members
+D) Biggest member in the union
+ANSWER: D
+
+What type of array is generally generated in Command-line argument?
+A) Jagged Array
+B) Single dimension array
+C) 2-Dimensional Square Array
+D) 2-Dimensional Rectangular Array
+ANSWER: A
+
+How many number of pointer (*) does C have against a pointer variable declaration?
+A) 7
+B) No limits.
+C) 127
+D) 255
+ANSWER: B
+
+Default storage class if not any is specified for a local variable, is auto
+A) true
+B) false
+C) Depends on the standard
+D) None of the mentioned
+ANSWER: A
+
+Associativity of an operator are:
+A) Right to Left
+B) Left to Right
+C) Random fashion
+D) Both (a) and (b)
+ANSWER: D
